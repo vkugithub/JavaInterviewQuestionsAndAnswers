@@ -25,6 +25,9 @@ public class InstanceOfExamples {
 
 		// Object referred by subClassObj(SubClass)-NOT of type SomeOtherClass
 		System.out.println(subClassObj instanceof SomeOtherClass);// false
+		Interface in=new SubClass2();
+		System.out.println( in instanceof Interface);
+		System.out.println( in instanceof SubClass2);
 
 	}
 }

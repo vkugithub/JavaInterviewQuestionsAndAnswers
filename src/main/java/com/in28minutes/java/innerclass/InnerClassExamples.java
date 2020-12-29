@@ -1,6 +1,7 @@
 
 package com.in28minutes.java.innerclass;
 class OuterClass {
+	static int a=5;
 	private int outerClassInstanceVariable;
 
 	public void exampleMethod() {
@@ -40,6 +41,7 @@ class OuterClass {
 
 		public void privateVariablesOfOuterClassAreNOTAvailable() {
 			// outerClassInstanceVariable = 5; //COMPILE ERROR
+			a=6;
 		}
 	}
 
